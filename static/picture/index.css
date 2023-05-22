@@ -1,0 +1,55 @@
+.Wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Box {
+    height: 360px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 2px solid #000080;
+}
+
+.heading {
+    font-family: sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+.form-width {
+    width: 100%;
+    text-align: center;
+}
+
+.form-height {
+    width: 100%;
+    text-align: center;
+}
+
+.form-input {
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+
+.button {
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Picture Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='picture/index.css') }}">
+</head>
+<body>
+    <div class="Wrapper">
+        <div class="Box">
+            <h1 class="heading">Height and Width</h1>
+            <form method="POST" class="form">
+                <label for="width" class="form-width">Width</label>
+                <input type="number" id="width" name="width" class="form-input"><br><br>
+                <label for="height" class="height" class="form-height">Height</label>
+                <input type="number" id="height" name="height" class="form-input"><br><br>
+                <input type="submit" value="submit" class="button">
+        </form>
+        </div>
+    </div>
+</body>
+</html>

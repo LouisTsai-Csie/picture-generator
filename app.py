@@ -36,6 +36,6 @@ def handle_bad_request(error):
 
 
 if __name__ == '__main__':
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './service_account.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = './picture-generator-387404-f4cdba2b0bb2.json'
     app.run()
     start_log()
